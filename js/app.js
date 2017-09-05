@@ -29,6 +29,8 @@ var hasUniqueCharacters = function (values) {
 	
 
 }
+
+/*falta optimizar para hacerlo mas pequeño /^A,Z^ caracteres especiales/ */
 hasUniqueCharacters("hola")
 hasUniqueCharacters("hola HOLAcomo estas")
 hasUniqueCharacters("holacomoestas?")
