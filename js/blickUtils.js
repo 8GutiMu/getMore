@@ -17,6 +17,4 @@ var showData = function(data){
 
 
 var btnContacto = document.getElementById("contacto-btn")
-console.log(btnContacto)
-
 btnContacto.addEventListener("click", showAlert)
