@@ -2,7 +2,7 @@ var showAlert = function (event) {
 	event.preventDefault()
 	
 	$.getJSON("http://demo6292426.mockable.io/blickTest", function (response) {
-		
+		//RESPONSE TODA LA DATA SE MUESTRA EN CONSOLA
 		showData(response)
 	})
 }
